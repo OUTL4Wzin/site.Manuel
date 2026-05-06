@@ -1,0 +1,93 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  scroll-behavior: smooth;
+  background-color: #0f0f0f;
+  color: white;
+}
+
+/* HEADER */
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px 0;
+  background: rgba(43, 43, 43, 0.8);
+  backdrop-filter: blur(10px);
+  z-index: 1000;
+}
+
+/* Container central */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+    
+  position: relative;
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-decoration: none;
+  background: linear-gradient(90deg, #00f5ff, #7b2cff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 0.3s ease;
+}
+
+/* Glow por trás */
+.logo::before {
+  content: "";
+  position: absolute;
+  inset: -5px;
+  background: linear-gradient(90deg, #00f5ff, #7b2cff);
+  filter: blur(18px);
+  opacity: 0;
+  z-index: -1;
+  transition: 0.3s ease;
+  border-radius: 8px;
+}
+
+.logo:hover::before {
+  opacity: 0.6;
+}
+
+/* Navegação */
+.nav a {
+  margin-left: 30px;
+  text-decoration: none;
+  color: white;
+  font-size: 1.1rem;
+  position: relative;
+}
+
+/* Hover elegante */
+.nav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0%;
+  height: 1px;
+  background: white;
+  transition: 0.3s ease;
+}
+
+.nav a:hover::after {
+  width: 100%;
+}
+
+.header.scrolled {
+  background: rgba(15, 15, 15, 0.95);
+  padding: 15px 0;
+}
