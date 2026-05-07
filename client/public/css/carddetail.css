@@ -1,0 +1,115 @@
+/* =========================
+   INFO CARD
+========================= */
+
+.info-card {
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.info-card:hover {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 10px 30px rgba(0, 245, 255, 0.08);
+}
+
+/* =========================
+   OVERLAY
+========================= */
+
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+
+  background: rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur(6px);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  opacity: 0;
+  visibility: hidden;
+
+  transition: 0.3s ease;
+
+  z-index: 9999;
+}
+
+/* Active */
+.modal-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* =========================
+   MODAL
+========================= */
+
+.modal {
+  width: 90%;
+  max-width: 520px;
+
+  background: linear-gradient(145deg, #111827, #1f2937);
+
+  padding: 40px;
+  border-radius: 20px;
+
+  position: relative;
+
+  transform: translateY(20px) scale(0.98);
+  transition: 0.3s ease;
+
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6);
+}
+
+/* animação entrada */
+.modal-overlay.active .modal {
+  transform: translateY(0) scale(1);
+}
+
+/* =========================
+   BOTÃO FECHAR
+========================= */
+
+.close-modal {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+
+  background: none;
+  border: none;
+
+  color: #fff;
+  font-size: 2rem;
+
+  cursor: pointer;
+
+  transition: 0.2s ease;
+}
+
+.close-modal:hover {
+  transform: rotate(90deg);
+  color: #00f5ff;
+}
+
+/* =========================
+   TÍTULO
+========================= */
+
+.modal h2 {
+  margin-bottom: 20px;
+
+  background: linear-gradient(90deg, #00f5ff, #7b2cff);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* =========================
+   TEXTO
+========================= */
+
+.modal p {
+  color: #cbd5e1;
+  line-height: 1.7;
+}
