@@ -9,115 +9,377 @@
 
     <link rel="stylesheet" href="/client/public/css/header.css">
     <link rel="stylesheet" href="/client/public/css/style.css">
-    <link rel="stylesheet" href="/client/public/css/carddetail.css"> 
+    <link rel="stylesheet" href="/client/public/css/carddetail.css">
+    <link rel="stylesheet" href="/client/public/css/projects.css">
 </head>
 
 <body>
 
-<!-- HEADER -->
-<header class="header">
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container">
+
+            <a href="#home" class="logo">Manuel</a>
+
+            <nav class="nav">
+                <a href="#sobre">Sobre</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projetos</a>
+                <a href="#contact">Contacto</a>
+            </nav>
+
+        </div>
+    </header>
+
+    <!-- HOME -->
+    <section id="home" class="about">
+
+        <div class="about-container">
+
+            <div class="about-text">
+
+                <h1>Manuel Cabeceiro</h1>
+
+                <h2>Software Developer</h2>
+
+                <p>
+                    Programador focado em desenvolvimento web e soluções digitais modernas, 26 anos,
+                    gosto de criar interfaces intuitivas e eficientes.
+                </p>
+
+                <div class="about-buttons">
+                    <a href="#projects" class="btn-primary">Ver Projetos</a>
+                    <a href="#contact" class="btn-secondary">Contacto</a>
+                </div>
+
+            </div>
+
+            <div class="about-image">
+                <div class="image-wrapper">
+                    <img src="Manel3.png" alt="Foto de perfil" id="profileImage">
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- SOBRE -->
+    <section id="sobre" class="sobre-section">
+
+        <div class="container">
+
+            <h2 class="section-title">Sobre mim</h2>
+
+        </div>
+
+        <div class="container">
+
+            <div class="sobre-content">
+
+                <div class="sobre-descricao">
+
+                    <p>
+                        O meu nome é Manuel Alexandre Brás Cabeceiro, tenho 25 anos e sou natural de Bragança.
+                        Sou um developer apaixonado por tecnologia e resolução de problemas.
+                    </p>
+
+                    <p>
+                        Gosto de criar soluções eficientes e interfaces intuitivas.
+                        Estou sempre a aprender novas tecnologias e a melhorar as minhas competências.
+                    </p>
+
+                </div>
+
+                <div class="sobre-cards">
+
+                    <div class="info-card" data-info="educacao">
+                        <h3>🎓 Educação</h3>
+                        <p>Técnico Superior de Redes e Sistemas Informáticos</p>
+                        <p>Engenharia Informática</p>
+                    </div>
+
+                    <div class="info-card" data-info="experiencia">
+                        <h3>💼 Experiência</h3>
+                        <p>Projetos pessoais e freelancing</p>
+                        <p>Estágios em empresas de tecnologia</p>
+                    </div>
+
+                    <div class="info-card" data-info="stack">
+                        <h3>🚀 Stack Principal</h3>
+                        <p>HTML, CSS, JavaScript, React, Node.js</p>
+                    </div>
+
+                    <div class="info-card" data-info="objetivo">
+                        <h3>🌍 Objetivo</h3>
+                        <p>Construir soluções modernas e escaláveis</p>
+                    </div>
+
+                    <div class="info-card" data-info="linguas">
+                        <h3>🌍 Linguas</h3>
+                        <p>Português, Inglês, Espanhol, Francês</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="skills-section">
+
+        <div class="container">
+
+            <h2 class="section-title-skills">Skills</h2>
+
+        </div>
+
+        <div class="container">
+
+            <div class="skills-cards">
+
+                <!-- HTML -->
+                <div class="card" data-skill="html">
+                    <div class="card-icon">
+                        <img src="html-icon.png" alt="HTML">
+                    </div>
+
+                    <div class="card-content">
+                        <span class="card-label">HTML</span>
+
+                        <div class="progress-container">
+                            <div class="progress-bar" style="width: 95%;"></div>
+                        </div>
+
+                        <span class="progress-value">95%</span>
+                    </div>
+                </div>
+
+                <!-- CSS -->
+                <div class="card" data-skill="css">
+                    <div class="card-icon">
+                        <img src="css-icon.png" alt="CSS">
+                    </div>
+
+                    <div class="card-content">
+                        <span class="card-label">CSS</span>
+
+                        <div class="progress-container">
+                            <div class="progress-bar" style="width: 95%;"></div>
+                        </div>
+
+                        <span class="progress-value">95%</span>
+                    </div>
+                </div>
+
+                <!-- JAVASCRIPT -->
+                <div class="card" data-skill="javascript">
+                    <div class="card-icon">
+                        <img src="javascript.png" alt="JavaScript">
+                    </div>
+
+                    <div class="card-content">
+                        <span class="card-label">JavaScript</span>
+
+                        <div class="progress-container">
+                            <div class="progress-bar" style="width: 75%;"></div>
+                        </div>
+
+                        <span class="progress-value">75%</span>
+                    </div>
+                </div>
+
+                <!-- REACT -->
+                <div class="card" data-skill="react">
+                    <div class="card-icon">
+                        <img src="React-icon.png" alt="React">
+                    </div>
+
+                    <div class="card-content">
+                        <span class="card-label">React</span>
+
+                        <div class="progress-container">
+                            <div class="progress-bar" style="width: 60%;"></div>
+                        </div>
+
+                        <span class="progress-value">60%</span>
+                    </div>
+                </div>
+
+                <!-- DB -->
+                <div class="card" data-skill="mongodb">
+                    <div class="card-icon">
+                        <img src="mongodb.png" alt="MongoDB">
+                    </div>
+
+                    <div class="card-content">
+                        <span class="card-label">MongoDB</span>
+
+                        <div class="progress-container">
+                            <div class="progress-bar" style="width: 60%;"></div>
+                        </div>
+
+                        <span class="progress-value">60%</span>
+                    </div>
+                </div>
+
+                <!-- NODE.JS -->
+                <div class="card" data-skill="nodejs">
+                    <div class="card-icon">
+                        <img src="nodejs.png" alt="Node.js">
+                    </div>
+
+                    <div class="card-content">
+                        <span class="card-label">Node.js</span>
+
+                        <div class="progress-container">
+                            <div class="progress-bar" style="width: 50%;"></div>
+                        </div>
+
+                        <span class="progress-value">50%</span>
+                    </div>
+                </div>
+
+                <!-- C++ -->
+                <div class="card" data-skill="c">
+                    <div class="card-icon">
+                        <img src="c++.png" alt="C++">
+                    </div>
+
+                    <div class="card-content">
+                        <span class="card-label">C++</span>
+
+                        <div class="progress-container">
+                            <div class="progress-bar" style="width: 30%;"></div>
+                        </div>
+
+                        <span class="progress-value">30%</span>
+                    </div>
+                </div>
+
+                <!-- SQL -->
+                <div class="card" data-skill="sql">
+                    <div class="card-icon">
+                        <img src="sql.png" alt="SQL">
+                    </div>
+
+                    <div class="card-content">
+                        <span class="card-label">SQL</span>
+
+                        <div class="progress-container">
+                            <div class="progress-bar" style="width: 30%;"></div>
+                        </div>
+
+                        <span class="progress-value">30%</span>
+                    </div>
+                </div>
+
+                <!-- Python -->
+                <div class="card" data-skill="python">
+                    <div class="card-icon">
+                        <img src="python.png" alt="Python">
+                    </div>
+
+                    <div class="card-content">
+                        <span class="card-label">Python</span>
+
+                        <div class="progress-container">
+                            <div class="progress-bar" style="width: 50%;"></div>
+                        </div>
+
+                        <span class="progress-value">50%</span>
+                    </div>
+                </div>
+
+                <!-- PHP -->
+                <div class="card" data-skill="php">
+                    <div class="card-icon">
+                        <img src="php.png" alt="PHP">
+                    </div>
+
+                    <div class="card-content">
+                        <span class="card-label">PHP</span>
+
+                        <div class="progress-container">
+                            <div class="progress-bar" style="width: 30%;"></div>
+                        </div>
+
+                        <span class="progress-value">30%</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- DESCRIÇÃO -->
     <div class="container">
 
-        <a href="#home" class="logo">Manuel</a>
-
-        <nav class="nav">
-            <a href="#sobre">Sobre</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projetos</a>
-            <a href="#contact">Contacto</a>
-        </nav>
-
-    </div>
-</header>
-
-<!-- HOME -->
-<section id="home" class="about">
-
-    <div class="about-container">
-
-        <div class="about-text">
-
-            <h1>Manuel Cabeceiro</h1>
-
-            <h2>Software Developer</h2>
+        <div class="skill-descricao">
 
             <p>
-                Programador focado em desenvolvimento web e soluções digitais modernas, 26 anos,
-                gosto de criar interfaces intuitivas e eficientes.
+                Tenho uma base forte em HTML e CSS, com experiência sólida em JavaScript e React.
             </p>
 
-            <div class="about-buttons">
-                <a href="#projects" class="btn-primary">Ver Projetos</a>
-                <a href="#contact" class="btn-secondary">Contacto</a>
-            </div>
-
-        </div>
-
-        <div class="about-image">
-            <div class="image-wrapper">
-                <img src="Manel3.png" alt="Foto de perfil">
-            </div>
         </div>
 
     </div>
 
-</section>
+    <!-- MODAL -->
+    <div class="modal-overlay" id="modalOverlay">
 
-<!-- SOBRE -->
-<section id="sobre" class="sobre-section">
+        <div class="modal">
 
-    <div class="container">
+            <button class="close-modal">&times;</button>
 
-        <h2 class="section-title">Sobre Mim</h2>
+            <h2 id="modalTitle">Skill</h2>
+
+            <p id="modalText"></p>
+
+        </div>
 
     </div>
+    <!-- MODAL DA FOTO -->
+    <div class="modal-overlay" id="socialModal">
 
-    <div class="container">
+        <div class="modal">
 
-        <div class="sobre-content">
+            <button class="close-modal" id="closeSocial">&times;</button>
 
-            <div class="sobre-descricao">
+            <h2>Redes Sociais</h2>
 
-                <p>
-                    O meu nome é Manuel Alexandre Brás Cabeceiro, tenho 25 anos e sou natural de Bragança.
-                    Sou um developer apaixonado por tecnologia e resolução de problemas.
-                </p>
+            <p>Podes encontrar-me em:</p>
 
-                <p>
-                    Gosto de criar soluções eficientes e interfaces intuitivas.
-                    Estou sempre a aprender novas tecnologias e a melhorar as minhas competências.
-                </p>
+            <div class="contact-links" style="margin-top:20px">
 
-            </div>
+                <a href="https://x.com/OUTL4Wzin" target="_blank" class="contact-item">
+                    ⬛​ Twitter/X
+                </a>
 
-            <div class="sobre-cards">
+                <a href="https://instagram.com/manelzz0" target="_blank" class="contact-item">
+                    📸​ Instagram
+                </a>
 
-                <div class="info-card" data-info="educacao">
-                    <h3>🎓 Educação</h3>
-                    <p>Técnico Superior de Redes e Sistemas Informáticos</p>
-                    <p>Engenharia Informática</p>
-                </div>
+                <a href="https://tiktok.com/" target="_blank" class="contact-item">
+                    🔴​ TikTok
+                </a>
 
-                <div class="info-card" data-info="experiencia">
-                    <h3>💼 Experiência</h3>
-                    <p>Projetos pessoais e freelancing</p>
-                    <p>Estágios em empresas de tecnologia</p>
-                </div>
+                <a href="https://www.linkedin.com/in/manuel-cabeceiro-84960220b/" target="_blank" class="contact-item">
+                    💼 LinkedIn
+                </a>
 
-                <div class="info-card" data-info="stack">
-                    <h3>🚀 Stack Principal</h3>
-                    <p>HTML, CSS, JavaScript, React, Node.js</p>
-                </div>
+                <a href="https://github.com" target="_blank" class="contact-item">
+                    💻 GitHub
+                </a>
 
-                <div class="info-card" data-info="objetivo">
-                    <h3>🌍 Objetivo</h3>
-                    <p>Construir soluções modernas e escaláveis</p>
-                </div>
-
-                <div class="info-card" data-info="linguas">
-                    <h3>🌍 Linguas</h3>
-                    <p>Português, Inglês, Espanhol, Francês</p>
-                </div>
+                <a href="mailto:teuemail@email.com" class="contact-item">
+                    📧 Email
+                </a>
 
             </div>
 
@@ -125,250 +387,151 @@
 
     </div>
 
-</section>
+    <!-- =========================
+     PROJETOS
+========================= -->
 
-<!-- SKILLS -->
-<section id="skills" class="skills-section">
-
-    <div class="container">
-
-        <h2 class="section-title-skills">Skills</h2>
-
-    </div>
-
-    <div class="container">
-
-        <div class="skills-cards">
-
-            <!-- HTML -->
-            <div class="card" data-skill="html">
-                <div class="card-icon">
-                    <img src="html-icon.png" alt="HTML">
-                </div>
-
-                <div class="card-content">
-                    <span class="card-label">HTML</span>
-
-                    <div class="progress-container">
-                        <div class="progress-bar" style="width: 95%;"></div>
-                    </div>
-
-                    <span class="progress-value">95%</span>
-                </div>
-            </div>
-
-            <!-- CSS -->
-            <div class="card" data-skill="css">
-                <div class="card-icon">
-                    <img src="css-icon.png" alt="CSS">
-                </div>
-
-                <div class="card-content">
-                    <span class="card-label">CSS</span>
-
-                    <div class="progress-container">
-                        <div class="progress-bar" style="width: 95%;"></div>
-                    </div>
-
-                    <span class="progress-value">95%</span>
-                </div>
-            </div>
-
-            <!-- JAVASCRIPT -->
-            <div class="card" data-skill="javascript">
-                <div class="card-icon">
-                    <img src="javascript.png" alt="JavaScript">
-                </div>
-
-                <div class="card-content">
-                    <span class="card-label">JavaScript</span>
-
-                    <div class="progress-container">
-                        <div class="progress-bar" style="width: 75%;"></div>
-                    </div>
-
-                    <span class="progress-value">75%</span>
-                </div>
-            </div>
-
-            <!-- REACT -->
-            <div class="card" data-skill="react">
-                <div class="card-icon">
-                    <img src="React-icon.png" alt="React">
-                </div>
-
-                <div class="card-content">
-                    <span class="card-label">React</span>
-
-                    <div class="progress-container">
-                        <div class="progress-bar" style="width: 60%;"></div>
-                    </div>
-
-                    <span class="progress-value">60%</span>
-                </div>
-            </div>
-
-            <!-- DB -->
-            <div class="card" data-skill="mongodb">
-                <div class="card-icon">
-                    <img src="mongodb.png" alt="MongoDB">
-                </div>
-
-                <div class="card-content">
-                    <span class="card-label">MongoDB</span>
-
-                    <div class="progress-container">
-                        <div class="progress-bar" style="width: 60%;"></div>
-                    </div>
-
-                    <span class="progress-value">60%</span>
-                </div>
-            </div>
-
-            <!-- NODE.JS -->
-            <div class="card" data-skill="nodejs">
-                <div class="card-icon">
-                    <img src="nodejs.png" alt="Node.js">
-                </div>
-
-                <div class="card-content">
-                    <span class="card-label">Node.js</span>
-
-                    <div class="progress-container">
-                        <div class="progress-bar" style="width: 50%;"></div>
-                    </div>
-
-                    <span class="progress-value">50%</span>
-                </div>
-            </div>
-
-            <!-- C++ -->
-            <div class="card" data-skill="c">
-                <div class="card-icon">
-                    <img src="c++.png" alt="C++">
-                </div>
-
-                <div class="card-content">
-                    <span class="card-label">C++</span>
-
-                    <div class="progress-container">
-                        <div class="progress-bar" style="width: 30%;"></div>
-                    </div>
-
-                    <span class="progress-value">30%</span>
-                </div>
-            </div>
-
-            <!-- SQL -->
-            <div class="card" data-skill="sql">
-                <div class="card-icon">
-                    <img src="sql.png" alt="SQL">
-                </div>
-
-                <div class="card-content">
-                    <span class="card-label">SQL</span>
-
-                    <div class="progress-container">
-                        <div class="progress-bar" style="width: 30%;"></div>
-                    </div>
-
-                    <span class="progress-value">30%</span>
-                </div>
-            </div>
-
-            <!-- Python -->
-            <div class="card" data-skill="python">
-                <div class="card-icon">
-                    <img src="python.png" alt="Python">
-                </div>
-
-                <div class="card-content">
-                    <span class="card-label">Python</span>
-
-                    <div class="progress-container">
-                        <div class="progress-bar" style="width: 50%;"></div>
-                    </div>
-
-                    <span class="progress-value">50%</span>
-                </div>
-            </div>
-
-            <!-- PHP -->
-            <div class="card" data-skill="php">
-                <div class="card-icon">
-                    <img src="php.png" alt="PHP">
-                </div>
-
-                <div class="card-content">
-                    <span class="card-label">PHP</span>
-
-                    <div class="progress-container">
-                        <div class="progress-bar" style="width: 30%;"></div>
-                    </div>
-
-                    <span class="progress-value">30%</span>
-                </div>
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-<!-- DESCRIÇÃO -->
-<div class="container">
-
-    <div class="skill-descricao">
-
-        <p>
-            Tenho uma base forte em HTML e CSS, com experiência sólida em JavaScript e React.
-        </p>
-
-    </div>
-
-</div>
-
-<!-- MODAL -->
-<div class="modal-overlay" id="modalOverlay">
-
-    <div class="modal">
-
-        <button class="close-modal">&times;</button>
-
-        <h2 id="modalTitle">Skill</h2>
-
-        <p id="modalText"></p>
-
-    </div>
-
-</div>
-
-<section id="contact" class="contact-section">
+<section id="projects" class="projects-section">
 
   <div class="container">
-    <h2 class="section-title">Contacto</h2>
-  </div>
 
-  <div class="container contact-content">
+    <h2 class="section-title">Projetos</h2>
 
-    <div class="contact-info">
+    <!-- FEATURED PROJECT -->
+    <div class="featured-project">
 
-      <p>Se quiseres falar comigo, colaborar ou trocar ideias:</p>
+      <div class="featured-image">
+        <img src="https://picsum.photos/1000/700" alt="Projeto Destaque">
+      </div>
 
-      <div class="contact-links">
+      <div class="featured-content">
 
-        <a href="mailto:manuelpropt2000@gmail.com" class="contact-item">
-          📧 Email
-        </a>
+        <span class="featured-badge">Projeto em Destaque</span>
 
-        <a href="https://www.linkedin.com/in/manuel-cabeceiro-84960220b/" target="_blank" class="contact-item">
-          💼 LinkedIn
-        </a>
+        <h3>Dashboard Analytics Platform</h3>
 
-        <a href="https://github.com/OUTL4Wzin" target="_blank" class="contact-item">
-          💻 GitHub
-        </a>
+        <p>
+          Plataforma moderna de analytics com autenticação,
+          dashboards dinâmicos e visualização de dados em tempo real.
+        </p>
+
+        <div class="project-tags">
+          <span>React</span>
+          <span>Node.js</span>
+          <span>MongoDB</span>
+        </div>
+
+        <div class="project-buttons">
+          <a href="#" target="_blank" class="project-btn">
+            🌐 Live Demo
+          </a>
+
+          <a href="#" target="_blank" class="project-btn secondary">
+            💻 GitHub
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- GRID -->
+    <div class="projects-grid">
+
+      <!-- CARD -->
+      <div class="project-card" data-project="project1">
+
+        <div class="project-image">
+          <img src="https://picsum.photos/600/400?1" alt="Projeto">
+        </div>
+
+        <div class="project-info">
+
+          <h3>Task Management App</h3>
+
+          <p>
+            Aplicação moderna de gestão de tarefas com autenticação.
+          </p>
+
+          <div class="project-tags">
+            <span>React</span>
+            <span>Firebase</span>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- CARD -->
+      <div class="project-card" data-project="project2">
+
+        <div class="project-image">
+          <img src="https://picsum.photos/600/400?2" alt="Projeto">
+        </div>
+
+        <div class="project-info">
+
+          <h3>E-Commerce Platform</h3>
+
+          <p>
+            Loja online fullstack com carrinho e pagamentos.
+          </p>
+
+          <div class="project-tags">
+            <span>Node.js</span>
+            <span>MongoDB</span>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- CARD -->
+      <div class="project-card" data-project="project3">
+
+        <div class="project-image">
+          <img src="https://picsum.photos/600/400?3" alt="Projeto">
+        </div>
+
+        <div class="project-info">
+
+          <h3>Portfolio Website</h3>
+
+          <p>
+            Website pessoal moderno e totalmente responsivo.
+          </p>
+
+          <div class="project-tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- CARD -->
+      <div class="project-card" data-project="project4">
+
+        <div class="project-image">
+          <img src="https://picsum.photos/600/400?4" alt="Projeto">
+        </div>
+
+        <div class="project-info">
+
+          <h3>Admin Dashboard</h3>
+
+          <p>
+            Painel administrativo com gráficos e métricas.
+          </p>
+
+          <div class="project-tags">
+            <span>React</span>
+            <span>Chart.js</span>
+          </div>
+
+        </div>
 
       </div>
 
@@ -378,9 +541,69 @@
 
 </section>
 
-<!-- SCRIPTS -->
-<script src="/client/public/js/script.js"></script>
-<script src="/client/public/js/carddetail.js"></script>
+<!-- =========================
+     PROJECT MODAL
+========================= -->
+
+<div class="modal-overlay" id="projectModal">
+
+  <div class="modal">
+
+    <button class="close-modal" id="closeProjectModal">
+      &times;
+    </button>
+
+    <h2 id="projectModalTitle">
+      Projeto
+    </h2>
+
+    <p id="projectModalText">
+      Descrição do projeto...
+    </p>
+
+  </div>
+
+</div>
+
+    <section id="contact" class="contact-section">
+
+        <div class="container">
+            <h2 class="section-title">Contacto</h2>
+        </div>
+
+        <div class="container contact-content">
+
+            <div class="contact-info">
+
+                <p>Se quiseres falar comigo, colaborar ou trocar ideias:</p>
+
+                <div class="contact-links">
+
+                    <a href="mailto:manuelpropt2000@gmail.com" class="contact-item">
+                        📧 Email
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/manuel-cabeceiro-84960220b/" target="_blank"
+                        class="contact-item">
+                        💼 LinkedIn
+                    </a>
+
+                    <a href="https://github.com/OUTL4Wzin" target="_blank" class="contact-item">
+                        💻 GitHub
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- SCRIPTS -->
+    <script src="/client/public/js/script.js"></script>
+    <script src="/client/public/js/carddetail.js"></script>
 
 </body>
+
 </html>

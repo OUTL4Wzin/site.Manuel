@@ -20,6 +20,17 @@ window.addEventListener('scroll', () => {
 
 /* Disparar animação ao scroll */
 window.addEventListener('scroll', () => {
+  const section = document.querySelector('#projects');
+  const sectionTop = section.getBoundingClientRect().top;
+  const trigger = window.innerHeight * 0.8;
+
+  if(sectionTop < trigger){
+    animateSkills();
+  }
+});
+
+/* Disparar animação ao scroll */
+window.addEventListener('scroll', () => {
   const section = document.querySelector('#sobre');
   const sectionTop = section.getBoundingClientRect().top;
   const trigger = window.innerHeight * 0.8;

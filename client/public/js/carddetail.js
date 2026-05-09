@@ -102,7 +102,7 @@ const infoDetails = {
    FUNÇÃO GLOBAL MODAL
 ========================= */
 
-function openModal(title, text){
+function openModal(title, text) {
 
   modalTitle.textContent = title;
   modalText.textContent = text;
@@ -122,7 +122,7 @@ cards.forEach(card => {
     const skill = card.dataset.skill;
 
     /* Proteção contra erros */
-    if(skillDetails[skill]){
+    if (skillDetails[skill]) {
 
       openModal(
         skillDetails[skill].title,
@@ -145,7 +145,7 @@ infoCards.forEach(card => {
 
     const info = card.dataset.info;
 
-    if(infoDetails[info]){
+    if (infoDetails[info]) {
 
       openModal(
         infoDetails[info].title,
@@ -170,7 +170,7 @@ closeModal.addEventListener('click', () => {
 
 modalOverlay.addEventListener('click', (e) => {
 
-  if(e.target === modalOverlay){
+  if (e.target === modalOverlay) {
     modalOverlay.classList.remove('active');
   }
 
@@ -180,8 +180,123 @@ modalOverlay.addEventListener('click', (e) => {
 
 document.addEventListener('keydown', (e) => {
 
-  if(e.key === 'Escape'){
+  if (e.key === 'Escape') {
     modalOverlay.classList.remove('active');
+  }
+
+});
+
+/* Imagem de perfil com função */
+const profileImage = document.getElementById('profileImage');
+
+const socialModal = document.getElementById('socialModal');
+const closeSocial = document.getElementById('closeSocial');
+
+/* abrir */
+profileImage.addEventListener('click', () => {
+  socialModal.classList.add('active');
+});
+
+/* fechar */
+closeSocial.addEventListener('click', () => {
+  socialModal.classList.remove('active');
+});
+
+/* fechar ao clicar fora */
+socialModal.addEventListener('click', (e) => {
+  if (e.target === socialModal) {
+    socialModal.classList.remove('active');
+  }
+});
+
+
+const projectCards = document.querySelectorAll('.project-card');
+
+const projectModal = document.getElementById('projectModal');
+
+const projectModalTitle = document.getElementById('projectModalTitle');
+const projectModalText = document.getElementById('projectModalText');
+
+const closeProjectModal = document.getElementById('closeProjectModal');
+
+/* =========================
+   PROJECT DETAILS
+========================= */
+
+const projectDetails = {
+
+  project1: {
+    title: "Task Management App",
+    text: "Aplicação moderna para gestão de tarefas com autenticação, organização por estados e sincronização em tempo real."
+  },
+
+  project2: {
+    title: "E-Commerce Platform",
+    text: "Loja online fullstack com sistema de pagamentos, carrinho, autenticação e dashboard administrativo."
+  },
+
+  project3: {
+    title: "Portfolio Website",
+    text: "Website pessoal desenvolvido com foco em design moderno, performance e experiência do utilizador."
+  },
+
+  project4: {
+    title: "Admin Dashboard",
+    text: "Dashboard administrativo com métricas, gráficos interativos e visualização de dados."
+  }
+
+};
+
+/* =========================
+   OPEN MODAL
+========================= */
+
+projectCards.forEach(card => {
+
+  card.addEventListener('click', () => {
+
+    const project = card.dataset.project;
+
+    if (projectDetails[project]) {
+
+      projectModalTitle.textContent =
+        projectDetails[project].title;
+
+      projectModalText.textContent =
+        projectDetails[project].text;
+
+      projectModal.classList.add('active');
+
+    }
+
+  });
+
+});
+
+/* =========================
+   CLOSE MODAL
+========================= */
+
+closeProjectModal.addEventListener('click', () => {
+  projectModal.classList.remove('active');
+});
+
+/* click outside */
+
+projectModal.addEventListener('click', (e) => {
+
+  if (e.target === projectModal) {
+    projectModal.classList.remove('active');
+  }
+
+});
+
+/* ESC */
+
+document.addEventListener('keydown', (e) => {
+
+  if (e.key === 'Escape') {
+    projectModal.classList.remove('active');
   }
 
 });
