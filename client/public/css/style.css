@@ -3,6 +3,7 @@ body {
   font-family: 'Inter', sans-serif;
   color: white;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 .container {
@@ -148,8 +149,7 @@ body {
 }
 
 .sobre-section {
-  padding: 60px 0;
-  margin-top: 320px;
+  padding: 120px 0;
 }
 
 .sobre-descricao {
@@ -167,9 +167,16 @@ body {
   font-size: 3rem;
   font-weight: 700;
   margin-bottom: 40px;
+
   background: linear-gradient(90deg, #00f5ff, #7b2cff);
+
+  background-clip: text;
   -webkit-background-clip: text;
+
+  color: transparent;
   -webkit-text-fill-color: transparent;
+
+  display: inline-block;
 }
 
 /* Conteúdo flexível */
@@ -223,15 +230,6 @@ body {
 
 
 /* Seção Skills */
-.section-title-skills {
-
-  font-size: 3rem;
-  font-weight: 700;
-  margin-bottom: 40px;
-  background: linear-gradient(90deg, #00f5ff, #7b2cff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
 
 .skills-section {
   padding: 120px 0;
@@ -274,6 +272,12 @@ body {
   align-items: center;
   font-size: 28px;
   margin-bottom: 20px;
+}
+
+.card-icon img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
 }
 
 /* Label */
@@ -342,7 +346,8 @@ body {
 }
 
 .contact-item {
-  padding: 12px 20px;
+  padding: 14px 24px;
+  font-weight: 500;
   border-radius: 12px;
   background: #111827;
   color: white;
@@ -353,4 +358,296 @@ body {
 .contact-item:hover {
   transform: translateY(-3px);
   background: linear-gradient(90deg, #00f5ff, #7b2cff);
+}
+
+/* =========================
+   PROJECTS
+========================= */
+
+.projects-section {
+  padding: 120px 0;
+  position: relative;
+  z-index: 1;
+}
+
+.projects-section .section-title {
+  margin-bottom: 50px;
+}
+
+.projects-section .container {
+  display: block;
+}
+
+/* =========================
+   FEATURED PROJECT
+========================= */
+
+.featured-project {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-bottom: 60px;
+  padding: 30px;
+  background: rgba(17, 24, 39, 0.75);
+  backdrop-filter: blur(12px);
+  border-radius: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  overflow: hidden;
+  transition: 0.4s ease;
+  align-items: start;
+  /* Corrigido */
+}
+
+.featured-project:hover {
+  transform: translateY(-5px);
+  box-shadow:
+    0 20px 50px rgba(0, 0, 0, 0.4),
+    0 0 40px rgba(0, 245, 255, 0.08);
+}
+
+/* =========================
+   FEATURED IMAGE
+========================= */
+
+.featured-image {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.featured-image img {
+  width: 100%;
+  height: auto;
+  /* Corrigido */
+  min-height: 260px;
+  /* Responsivo */
+  object-fit: cover;
+  display: block;
+  transition: 0.5s ease;
+}
+
+.featured-project:hover img {
+  transform: scale(1.04);
+}
+
+/* =========================
+   FEATURED CONTENT
+========================= */
+
+.featured-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /* Corrigido */
+  height: 100%;
+}
+
+.featured-content h3 {
+  font-size: 3rem;
+  line-height: 1.1;
+  color: white;
+  margin-bottom: 25px;
+  word-break: break-word;
+}
+
+.featured-content p {
+  color: #cbd5e1;
+  line-height: 1.9;
+  margin-bottom: 30px;
+  max-width: 100%;
+  /* Corrigido */
+}
+
+/* =========================
+   BADGE
+========================= */
+
+.featured-badge {
+  display: inline-block;
+  margin-bottom: 20px;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: rgba(0, 245, 255, 0.12);
+  color: #00f5ff;
+  font-size: 0.9rem;
+  font-weight: 600;
+  width: fit-content;
+}
+
+/* =========================
+   TAGS
+========================= */
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.project-tags span {
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.05);
+  color: #ccc;
+  font-size: 0.9rem;
+}
+
+/* =========================
+   BUTTONS
+========================= */
+
+.project-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.project-btn {
+  padding: 12px 20px;
+  border-radius: 12px;
+  text-decoration: none;
+  background: linear-gradient(90deg, #00f5ff, #7b2cff);
+  color: white;
+  transition: 0.3s ease;
+  font-weight: 600;
+}
+
+.project-btn:hover {
+  transform: translateY(-3px);
+}
+
+.project-btn.secondary {
+  background: #1f2937;
+}
+
+/* =========================
+   GRID
+========================= */
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  align-items: start;
+}
+
+/* =========================
+   PROJECT CARD
+========================= */
+
+.project-card {
+  background: rgba(17, 24, 39, 0.7);
+  backdrop-filter: blur(10px);
+  border-radius: 24px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: 0.4s ease;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+  border-color: rgba(0, 245, 255, 0.3);
+  box-shadow:
+    0 15px 40px rgba(0, 0, 0, 0.4),
+    0 0 30px rgba(123, 44, 255, 0.12);
+}
+
+/* IMAGE */
+
+.project-image {
+  overflow: hidden;
+}
+
+.project-image img {
+  width: 100%;
+  height: auto;
+  /* Corrigido */
+  max-height: 240px;
+  /* mantém cards consistentes */
+  object-fit: cover;
+  transition: 0.5s ease;
+}
+
+.project-card:hover img {
+  transform: scale(1.08);
+}
+
+/* INFO */
+
+.project-info {
+  padding: 25px;
+  overflow: hidden;
+}
+
+.project-info h3 {
+  color: white;
+  margin-bottom: 15px;
+  word-break: break-word;
+}
+
+.project-info p {
+  color: #cbd5e1;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 900px) {
+  .featured-project {
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+
+  .featured-content h3 {
+    font-size: 2rem;
+  }
+
+  .featured-image img {
+    min-height: 260px;
+  }
+
+  .project-buttons {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 600px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .about-text h1 {
+    font-size: 2.5rem;
+  }
+
+  .about-text h2 {
+    font-size: 1.5rem;
+  }
+
+  .section-title,
+  .section-title-skills {
+    font-size: 2.2rem;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .featured-content h3 {
+    font-size: 2rem;
+  }
+
+  .contact-info p {
+    font-size: 1.3rem;
+  }
+
 }
