@@ -39,3 +39,23 @@ window.addEventListener('scroll', () => {
     animateSkills();
   }
 });
+
+const bars = document.querySelectorAll(".progress-bar");
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+
+    if (entry.isIntersecting) {
+
+      const bar = entry.target;
+      const width = bar.getAttribute("data-width");
+
+      bar.style.width = width;
+    }
+  });
+
+}, { threshold: 0.5 });
+
+bars.forEach((bar) => {
+  observer.observe(bar);
+});

@@ -1,3 +1,14 @@
+:root {
+  --primary: #00f5ff;
+  --secondary: #7b2cff;
+  --bg-card: #111827;
+  --text: #ffffff;
+  --text-secondary: #cbd5e1;
+  color: var(--primary);
+}
+
+
+html,
 body {
   background: url("/client/public/images/hexablue.jpg") center center / cover no-repeat fixed;
   font-family: 'Inter', sans-serif;
@@ -18,6 +29,7 @@ body {
   align-items: center;
   padding-top: 120px;
   text-align: justify;
+  margin-bottom: 50px;
 }
 
 .about-container {
@@ -56,12 +68,19 @@ body {
 }
 
 /* Botões */
+.about-buttons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
 .about-buttons a {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   text-decoration: none;
   padding: 12px 24px;
   border-radius: 6px;
-  margin-right: 15px;
   font-size: 0.9rem;
   transition: all 0.3s ease;
 }
@@ -69,22 +88,48 @@ body {
 .btn-primary {
   background: linear-gradient(90deg, #00f5ff, #7b2cff);
   color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-primary::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+
+  width: 100%;
+  height: 100%;
+
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(255,255,255,0.3),
+    transparent
+  );
+
+  transition: 0.6s;
 }
 
 .btn-secondary {
   border: 1px solid #555;
   background: linear-gradient(90deg, #525252, #303030);
   color: white;
+  position: relative;
 }
 
 /* HOVER EFFECT (para ambos) */
 .about-buttons a:hover {
-  transform: scale(1.07) translate(-3px);
+  transform: translateY(-3px) scale(1.07);
 }
 
 /* Glow subtil no primário */
 .btn-primary:hover {
   box-shadow: 0 0 20px rgba(0, 245, 255, 0.4);
+}
+
+.btn-primary:hover::before {
+  left: 100%;
 }
 
 /* Destaque leve no secundário */
@@ -163,7 +208,7 @@ body {
 }
 
 .section-title {
-  margin-top: 45px;
+  margin-top: 20px;
   font-size: 3rem;
   font-weight: 700;
   margin-bottom: 40px;
@@ -298,10 +343,11 @@ body {
 }
 
 .progress-bar {
+  width: 0;
   height: 100%;
   background: linear-gradient(to right, #06b6d4, #8b5cf6);
   border-radius: 20px;
-  transition: width 0.8s ease;
+  transition: width 2.2s ease;
 }
 
 /* Percentagem */
