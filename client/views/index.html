@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="/client/public/css/projects.css">
     <link rel="stylesheet" href="/client/public/css/animations.css">
     <link rel="stylesheet" href="/client/public/css/scroll.css">
+    <link rel="stylesheet" href="/client/public/css/guide.css">
 </head>
 
 <body>
@@ -29,6 +30,9 @@
                 <a href="#skills">Skills</a>
                 <a href="#projects">Projetos</a>
                 <a href="#contact">Contacto</a>
+                <button id="helpButton" class="help-button">
+                    💡 Guia
+                </button>
             </nav>
 
         </div>
@@ -394,179 +398,179 @@
      PROJETOS
 ========================= -->
 
-<section id="projects" class="projects-section">
+    <section id="projects" class="projects-section">
 
-  <div class="container">
+        <div class="container">
 
-    <h2 class="section-title">Projetos</h2>
+            <h2 class="section-title">Projetos</h2>
 
-    <!-- FEATURED PROJECT -->
-    <div class="featured-project">
+            <!-- FEATURED PROJECT -->
+            <div class="featured-project">
 
-      <div class="featured-image">
-        <img src="https://picsum.photos/1000/700" alt="Projeto Destaque">
-      </div>
+                <div class="featured-image">
+                    <img src="https://picsum.photos/1000/700" alt="Projeto Destaque">
+                </div>
 
-      <div class="featured-content">
+                <div class="featured-content">
 
-        <span class="featured-badge">Projeto em Destaque</span>
+                    <span class="featured-badge">Projeto em Destaque</span>
 
-        <h3>Dashboard Analytics Platform</h3>
+                    <h3>Dashboard Analytics Platform</h3>
 
-        <p>
-          Plataforma moderna de analytics com autenticação,
-          dashboards dinâmicos e visualização de dados em tempo real.
-        </p>
+                    <p>
+                        Plataforma moderna de analytics com autenticação,
+                        dashboards dinâmicos e visualização de dados em tempo real.
+                    </p>
 
-        <div class="project-tags">
-          <span>React</span>
-          <span>Node.js</span>
-          <span>MongoDB</span>
+                    <div class="project-tags">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                    </div>
+
+                    <div class="project-buttons">
+                        <a href="#" target="_blank" class="project-btn">
+                            🌐 Live Demo
+                        </a>
+
+                        <a href="#" target="_blank" class="project-btn secondary">
+                            💻 GitHub
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- GRID -->
+            <div class="projects-grid">
+
+                <!-- CARD -->
+                <div class="project-card" data-project="project1">
+
+                    <div class="project-image">
+                        <img src="https://picsum.photos/600/400?1" alt="Projeto">
+                    </div>
+
+                    <div class="project-info">
+
+                        <h3>Task Management App</h3>
+
+                        <p>
+                            Aplicação moderna de gestão de tarefas com autenticação.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>React</span>
+                            <span>Firebase</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- CARD -->
+                <div class="project-card" data-project="project2">
+
+                    <div class="project-image">
+                        <img src="https://picsum.photos/600/400?2" alt="Projeto">
+                    </div>
+
+                    <div class="project-info">
+
+                        <h3>E-Commerce Platform</h3>
+
+                        <p>
+                            Loja online fullstack com carrinho e pagamentos.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- CARD -->
+                <div class="project-card" data-project="project3">
+
+                    <div class="project-image">
+                        <img src="https://picsum.photos/600/400?3" alt="Projeto">
+                    </div>
+
+                    <div class="project-info">
+
+                        <h3>Portfolio Website</h3>
+
+                        <p>
+                            Website pessoal moderno e totalmente responsivo.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- CARD -->
+                <div class="project-card" data-project="project4">
+
+                    <div class="project-image">
+                        <img src="https://picsum.photos/600/400?4" alt="Projeto">
+                    </div>
+
+                    <div class="project-info">
+
+                        <h3>Admin Dashboard</h3>
+
+                        <p>
+                            Painel administrativo com gráficos e métricas.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>React</span>
+                            <span>Chart.js</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
         </div>
 
-        <div class="project-buttons">
-          <a href="#" target="_blank" class="project-btn">
-            🌐 Live Demo
-          </a>
+    </section>
 
-          <a href="#" target="_blank" class="project-btn secondary">
-            💻 GitHub
-          </a>
-        </div>
-
-      </div>
-
-    </div>
-
-    <!-- GRID -->
-    <div class="projects-grid">
-
-      <!-- CARD -->
-      <div class="project-card" data-project="project1">
-
-        <div class="project-image">
-          <img src="https://picsum.photos/600/400?1" alt="Projeto">
-        </div>
-
-        <div class="project-info">
-
-          <h3>Task Management App</h3>
-
-          <p>
-            Aplicação moderna de gestão de tarefas com autenticação.
-          </p>
-
-          <div class="project-tags">
-            <span>React</span>
-            <span>Firebase</span>
-          </div>
-
-        </div>
-
-      </div>
-
-      <!-- CARD -->
-      <div class="project-card" data-project="project2">
-
-        <div class="project-image">
-          <img src="https://picsum.photos/600/400?2" alt="Projeto">
-        </div>
-
-        <div class="project-info">
-
-          <h3>E-Commerce Platform</h3>
-
-          <p>
-            Loja online fullstack com carrinho e pagamentos.
-          </p>
-
-          <div class="project-tags">
-            <span>Node.js</span>
-            <span>MongoDB</span>
-          </div>
-
-        </div>
-
-      </div>
-
-      <!-- CARD -->
-      <div class="project-card" data-project="project3">
-
-        <div class="project-image">
-          <img src="https://picsum.photos/600/400?3" alt="Projeto">
-        </div>
-
-        <div class="project-info">
-
-          <h3>Portfolio Website</h3>
-
-          <p>
-            Website pessoal moderno e totalmente responsivo.
-          </p>
-
-          <div class="project-tags">
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>JavaScript</span>
-          </div>
-
-        </div>
-
-      </div>
-
-      <!-- CARD -->
-      <div class="project-card" data-project="project4">
-
-        <div class="project-image">
-          <img src="https://picsum.photos/600/400?4" alt="Projeto">
-        </div>
-
-        <div class="project-info">
-
-          <h3>Admin Dashboard</h3>
-
-          <p>
-            Painel administrativo com gráficos e métricas.
-          </p>
-
-          <div class="project-tags">
-            <span>React</span>
-            <span>Chart.js</span>
-          </div>
-
-        </div>
-
-      </div>
-
-    </div>
-
-  </div>
-
-</section>
-
-<!-- =========================
+    <!-- =========================
      PROJECT MODAL
 ========================= -->
 
-<div class="modal-overlay" id="projectModal">
+    <div class="modal-overlay" id="projectModal">
 
-  <div class="modal">
+        <div class="modal">
 
-    <button class="close-modal" id="closeProjectModal">
-      &times;
-    </button>
+            <button class="close-modal" id="closeProjectModal">
+                &times;
+            </button>
 
-    <h2 id="projectModalTitle">
-      Projeto
-    </h2>
+            <h2 id="projectModalTitle">
+                Projeto
+            </h2>
 
-    <p id="projectModalText">
-      Descrição do projeto...
-    </p>
+            <p id="projectModalText">
+                Descrição do projeto...
+            </p>
 
-  </div>
+        </div>
 
-</div>
+    </div>
 
     <section id="contact" class="contact-section">
 
@@ -603,11 +607,49 @@
 
     </section>
 
+    <!-- Modal -->
+    <div id="helpModal" class="help-modal">
+        <div class="help-content">
+
+            <button id="closeHelp" class="help-close">
+                &times;
+            </button>
+
+            <h2>Como navegar</h2>
+
+            <div class="help-items">
+
+                <div class="help-item">
+                    <span>👤</span>
+                    <p><strong>Sobre</strong> — informações pessoais e percurso.</p>
+                </div>
+
+                <div class="help-item">
+                    <span>⚡</span>
+                    <p><strong>Skills</strong> — competências técnicas e níveis de conhecimento.</p>
+                </div>
+
+                <div class="help-item">
+                    <span>🚀</span>
+                    <p><strong>Projetos</strong> — clica nos cards para ver mais detalhes.</p>
+                </div>
+
+                <div class="help-item">
+                    <span>📩</span>
+                    <p><strong>Contacto</strong> — formas rápidas de entrar em contacto.</p>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
     <!-- SCRIPTS -->
     <script src="/client/public/js/script.js"></script>
     <script src="/client/public/js/carddetail.js"></script>
     <script src="/client/public/js/navbar.js"></script>
     <script src="/client/public/js/scroll.js"></script>
+    <script src="/client/public/js/animations.js"></script>
 
 </body>
 
