@@ -19,7 +19,7 @@ const translations = {
         about_me: "Sobre mim",
 
         about_text_1:
-            "O meu nome é Manuel Alexandre Brás Cabeceiro, tenho 26 anos e sou natural de Bragança. Sou um developer apaixonado por tecnologia e resolução de problemas.",
+            "O meu nome é Manuel Cabeceiro, tenho 26 anos e sou natural de Bragança. Sou um developer apaixonado por tecnologia e resolução de problemas.",
 
         about_text_2:
             "Gosto de criar soluções eficientes e interfaces intuitivas. Estou sempre a aprender novas tecnologias e a melhorar as minhas competências.",
@@ -75,7 +75,7 @@ const translations = {
         about_me: "About Me",
 
         about_text_1:
-            "My name is Manuel Alexandre Brás Cabeceiro, I am 26 years old and I am from Bragança. I am a developer passionate about technology and problem solving.",
+            "My name is Manuel Cabeceiro, I am 26 years old and I am from Bragança. I am a developer passionate about technology and problem solving.",
 
         about_text_2:
             "I enjoy creating efficient solutions and intuitive interfaces. I am always learning new technologies and improving my skills.",
