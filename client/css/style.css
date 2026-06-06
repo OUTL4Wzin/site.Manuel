@@ -10,7 +10,7 @@
 
 html,
 body {
-  background: url("/client/public/images/hexablue.jpg") center center / cover no-repeat fixed;
+  background: url("/client/images/hexablue.jpg") center center / cover no-repeat fixed;
   font-family: 'Inter', sans-serif;
   color: white;
   scroll-behavior: smooth;
