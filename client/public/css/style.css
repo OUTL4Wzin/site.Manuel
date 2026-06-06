@@ -696,22 +696,16 @@ body {
 
 }
 
-
 .help-button {
   background: rgba(0, 245, 255, 0.08);
   border: 1px solid rgba(0, 245, 255, 0.25);
   margin-left: 30px;
   color: var(--primary);
-
   padding: 8px 16px;
-
   border-radius: 999px;
-
   font-size: 1.0rem;
   font-weight: 600;
-
   cursor: pointer;
-
   transition: all 0.3s ease;
 }
 
@@ -828,4 +822,25 @@ body {
 
 .help-item span {
   font-size: 1.5rem;
+}
+
+.language {
+  background: rgba(0, 245, 255, 0.08);
+  border: 1px solid rgba(0, 245, 255, 0.25);
+  margin-left: 30px;
+  color: var(--primary);
+  padding: 4px 4px;
+  border-radius: 4px;
+  font-size: 1.0rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.language:hover {
+  transform: translateY(-2px);
+  background: rgba(0, 245, 255, 0.15);
+  color: var(--secondary);
+  box-shadow:
+    0 0 15px rgba(0, 0, 0, 0.25);
 }

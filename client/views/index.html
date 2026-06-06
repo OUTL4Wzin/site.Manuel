@@ -25,14 +25,20 @@
             <a href="#home" class="logo">Manuel</a>
 
             <nav class="nav">
-                <a href="#home">Home</a>
-                <a href="#sobre">Sobre</a>
-                <a href="#skills">Skills</a>
-                <a href="#projects">Projetos</a>
-                <a href="#contact">Contacto</a>
-                <button id="helpButton" class="help-button">
+                <a href="#home" data-i18n="nav_home">Home</a>
+                <a href="#sobre" data-i18n="nav_about">Sobre</a>
+                <a href="#skills" data-i18n="nav_skills">Skills</a>
+                <a href="#projects" data-i18n="nav_projects">Projetos</a>
+                <a href="#contact" data-i18n="nav_contact">Contacto</a>
+
+                <button id="helpButton" class="help-button" data-i18n="guide">
                     💡 Guia
                 </button>
+
+                <select class="language" id="language-selector">
+                    <option value="pt">🇵🇹 PT</option>
+                    <option value="en">🇬🇧 EN</option>
+                </select>
             </nav>
 
         </div>
@@ -47,16 +53,16 @@
 
                 <h1>Manuel Cabeceiro</h1>
 
-                <h2>Software Developer</h2>
+                <h2 data-i18n="job_title">Software Developer</h2>
 
-                <p>
+                <p data-i18n="hero_description">
                     Programador focado em desenvolvimento web e soluções digitais modernas, 26 anos,
                     gosto de criar interfaces intuitivas e eficientes.
                 </p>
 
                 <div class="about-buttons">
-                    <a href="#projects" class="btn-primary">Ver Projetos</a>
-                    <a href="#contact" class="btn-secondary">Contacto</a>
+                    <a href="#projects" class="btn-primary" data-i18n="view_projects">Ver Projetos</a>
+                    <a href="#contact" class="btn-secondary" data-i18n="contact">Contacto</a>
                 </div>
 
             </div>
@@ -76,7 +82,7 @@
 
         <div class="container">
 
-            <h2 class="section-title">Sobre mim</h2>
+            <h2 class="section-title" data-i18n="about_me">Sobre mim</h2>
 
         </div>
 
@@ -86,12 +92,12 @@
 
                 <div class="sobre-descricao">
 
-                    <p>
+                    <p data-i18n="about_text_1">
                         O meu nome é Manuel Alexandre Brás Cabeceiro, tenho 26 anos e sou natural de Bragança.
                         Sou um developer apaixonado por tecnologia e resolução de problemas.
                     </p>
 
-                    <p>
+                    <p data-i18n="about_text_2">
                         Gosto de criar soluções eficientes e interfaces intuitivas.
                         Estou sempre a aprender novas tecnologias e a melhorar as minhas competências.
                     </p>
@@ -101,30 +107,30 @@
                 <div class="sobre-cards">
 
                     <div class="info-card" data-info="educacao">
-                        <h3>🎓 Educação</h3>
-                        <p>Técnico Superior de Redes e Sistemas Informáticos</p>
-                        <p>Engenharia Informática</p>
+                        <h3 data-i18n="education_title">🎓 Educação</h3>
+                        <p data-i18n="education_1">Técnico Superior de Redes e Sistemas Informáticos</p>
+                        <p data-i18n="education_2">Engenharia Informática</p>
                     </div>
 
                     <div class="info-card" data-info="experiencia">
-                        <h3>💼 Experiência</h3>
-                        <p>Projetos pessoais e freelancing</p>
-                        <p>Estágios em empresas de tecnologia</p>
+                        <h3 data-i18n="experience_title">💼 Experiência</h3>
+                        <p data-i18n="experience_1">Projetos pessoais e freelancing</p>
+                        <p data-i18n="experience_2">Estágios em empresas de tecnologia</p>
                     </div>
 
                     <div class="info-card" data-info="stack">
-                        <h3>🚀 Stack Principal</h3>
+                        <h3 data-i18n="stack_title">🚀 Stack Principal</h3>
                         <p>HTML, CSS, JavaScript, React, Node.js</p>
                     </div>
 
                     <div class="info-card" data-info="objetivo">
-                        <h3>🌍 Objetivo</h3>
-                        <p>Construir soluções modernas e escaláveis</p>
+                        <h3 data-i18n="goal_title">🌍 Objetivo</h3>
+                        <p data-i18n="goal_text">Construir soluções modernas e escaláveis</p>
                     </div>
 
                     <div class="info-card" data-info="linguas">
-                        <h3>🌍 Linguas</h3>
-                        <p>Português, Inglês, Espanhol, Francês</p>
+                        <h3 data-i18n="languages_title">🌍 Linguas</h3>
+                        <p data-i18n="languages_text">Português, Inglês, Espanhol, Francês</p>
                     </div>
 
                 </div>
@@ -402,7 +408,7 @@
 
         <div class="container">
 
-            <h2 class="section-title">Projetos</h2>
+            <h2 class="section-title" data-i18n="projects_title">Projetos</h2>
 
             <!-- FEATURED PROJECT -->
             <div class="featured-project">
@@ -413,11 +419,11 @@
 
                 <div class="featured-content">
 
-                    <span class="featured-badge">Projeto em Destaque</span>
+                    <span class="featured-badge" data-i18n="featured_project">Projeto em Destaque</span>
 
                     <h3>Dashboard Analytics Platform</h3>
 
-                    <p>
+                    <p data-i18n="featured_project_desc">
                         Plataforma moderna de analytics com autenticação,
                         dashboards dinâmicos e visualização de dados em tempo real.
                     </p>
@@ -575,14 +581,14 @@
     <section id="contact" class="contact-section">
 
         <div class="container">
-            <h2 class="section-title">Contacto</h2>
+            <h2 class="section-title" data-i18n="contact_title">Contacto</h2>
         </div>
 
         <div class="container contact-content">
 
             <div class="contact-info">
 
-                <p>Se quiseres falar comigo, colaborar ou trocar ideias:</p>
+                <p data-i18n="contact_text">Se quiseres falar comigo, colaborar ou trocar ideias:</p>
 
                 <div class="contact-links">
 
@@ -615,38 +621,42 @@
                 &times;
             </button>
 
-            <h2>Guia de utilização</h2>
+            <h2 data-i18n="guide_title">Guia de utilização</h2>
 
             <div class="help-items">
 
                 <div class="help-item">
                     <span>👤</span>
-                    <p><strong>Home</strong> — Página inicial do website com resumo e dois botões clicáveis. Clique na
+                    <p data-i18n="guide_home"><strong>Home</strong> — Página inicial do website com resumo e dois
+                        botões clicáveis. Clique na
                         foto para obter informações das minhas redes sociais.</p>
                 </div>
 
                 <div class="help-item">
                     <span>👤</span>
-                    <p><strong>Sobre</strong> — Informações pessoais e percurso. Clique em cada card para obter mais
+                    <p data-i18n="guide_about"><strong>Sobre</strong> — Informações pessoais e percurso. Clique em cada
+                        card para obter mais
                         informações.</p>
                 </div>
 
                 <div class="help-item">
                     <span>⚡</span>
-                    <p><strong>Skills</strong> — Competências técnicas e níveis de conhecimento. A % é relativa e
+                    <p data-i18n="guide_skills"><strong>Skills</strong> — Competências técnicas e níveis de
+                        conhecimento. A % é relativa e
                         representa uma estimativa do meu grau de conhecimento em cada tecnologia. Clique em cada uma
                         para obter mais informações.</p>
                 </div>
 
                 <div class="help-item">
                     <span>🚀</span>
-                    <p><strong>Projetos</strong> — Alguns dos meus melhores projetos. Clique em cada um para ver mais
+                    <p data-i18n="guide_projects"><strong>Projetos</strong> — Alguns dos meus melhores projetos. Clique
+                        em cada um para ver mais
                         detalhes.</p>
                 </div>
 
                 <div class="help-item">
                     <span>📩</span>
-                    <p><strong>Contacto</strong> — Contacte-me para saber mais.</p>
+                    <p data-i18n="guide_contact"><strong>Contacto</strong> — Contacte-me para saber mais.</p>
                 </div>
 
             </div>
@@ -660,6 +670,9 @@
     <script src="/client/public/js/navbar.js"></script>
     <script src="/client/public/js/scroll.js"></script>
     <script src="/client/public/js/animations.js"></script>
+    <script src="/client/public/js/translations.js"></script>
+    <script src="/client/public/js/language.js"></script>
+
 
 </body>
 
