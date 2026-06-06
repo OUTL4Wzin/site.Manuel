@@ -52,7 +52,12 @@ const translations = {
         contact_text:
             "Se quiseres falar comigo, colaborar ou trocar ideias:",
 
-        guide_title: "Guia de utilização"
+        guide_title: "Guia de utilização",
+        guide_home: "Home — Página inicial do website com resumo e dois botões clicáveis. Clique na foto para obter informações das minhas redes sociais.",
+        guide_about: "Sobre — Informações pessoais e percurso. Clique em cada card para obter mais informações.",
+        guide_skills: "Skills — Competências técnicas e níveis de conhecimento. A % é relativa e representa uma estimativa do meu grau de conhecimento em cada tecnologia. Clique em cada uma para obter mais informações.",
+        guide_projects: "Projetos — Alguns dos meus melhores projetos. Clique em cada um para ver mais detalhes.",
+        guide_contact: "Contacto — Contacte-me para saber mais."
     },
 
     en: {
