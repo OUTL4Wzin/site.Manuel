@@ -85,6 +85,29 @@ body {
   transition: all 0.3s ease;
 }
 
+@media (max-width: 768px) {
+
+  .about {
+    text-align: center;
+  }
+
+  .about-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .about-text p {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .about-buttons {
+    justify-content: center;
+  }
+
+}
+
 .btn-primary {
   background: linear-gradient(90deg, #00f5ff, #7b2cff);
   color: white;
