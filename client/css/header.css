@@ -23,13 +23,59 @@ body {
   z-index: 1000;
 }
 
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* lado direito (idioma + hamburger) */
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* hamburger escondido no desktop */
+.menu-toggle {
+  display: none;
+  font-size: 28px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav {
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.95);
+    padding: 20px;
+    border-radius: 12px;
+    display: none;
+    gap: 15px;
+  }
+
+  .nav.active {
+    display: flex;
+  }
+}
+
 /* Container central */
 .container {
   width: 90%;
   max-width: 1200px;
   margin: auto;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
 }
 
