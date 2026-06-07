@@ -43,6 +43,10 @@ const translations = {
 
         featured_project_desc:
             "Plataforma moderna de analytics com autenticação, dashboards dinâmicos e visualização de dados em tempo real.",
+        project1_desc: "Aplicação moderna de gestão de tarefas com autenticação.",
+        project2_desc: "Loja online fullstack com carrinho e pagamentos.",
+        project3_desc: "Website pessoal moderno e totalmente responsivo.",
+        project4_desc: "Painel administrativo com gráficos e métricas.",
 
         live_demo: "🌐 Live Demo",
         github: "💻 GitHub",
@@ -57,7 +61,10 @@ const translations = {
         guide_about: "Sobre — Informações pessoais e percurso. Clique em cada card para obter mais informações.",
         guide_skills: "Skills — Competências técnicas e níveis de conhecimento. A % é relativa e representa uma estimativa do meu grau de conhecimento em cada tecnologia. Clique em cada uma para obter mais informações.",
         guide_projects: "Projetos — Alguns dos meus melhores projetos. Clique em cada um para ver mais detalhes.",
-        guide_contact: "Contacto — Contacte-me para saber mais."
+        guide_contact: "Contacto — Contacte-me para saber mais.",
+
+        social_media_title: "Redes Sociais",
+        social_media_text1: "Podes encontrar-me em:"
     },
 
     en: {
@@ -104,6 +111,10 @@ const translations = {
 
         featured_project_desc:
             "Modern analytics platform with authentication, dynamic dashboards and real-time data visualization.",
+        project1_desc: "Modern task management application with authentication.",
+        project2_desc: "Fullstack online store with cart and payments.",
+        project3_desc: "Modern and fully responsive personal website.",
+        project4_desc: "Admin dashboard with charts and metrics.",
 
         live_demo: "🌐 Live Demo",
         github: "💻 GitHub",
@@ -118,6 +129,11 @@ const translations = {
         guide_about: "About — Personal information and background. Click on each card to get more information.",
         guide_skills: "Skills — Technical skills and knowledge levels. The % is relative and represents an estimate of my level of knowledge in each technology. Click on each one to get more information.",
         guide_projects: "Projects — Some of my best projects. Click on each one to see more details.",
-        guide_contact: "Contact — Contact me to learn more."
+        guide_contact: "Contact — Contact me to learn more.",
+
+        social_media_title: "Social Media",
+        social_media_text1: "You can find me on:"
+
+
     }
 };
