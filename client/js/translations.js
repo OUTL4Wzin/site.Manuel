@@ -101,8 +101,6 @@ const translations = {
         guide_contact: "Contact — Contact me to learn more.",
         social_media_title: "Social Media",
         social_media_text1: "You can find me on:"
-
-
     },
 
     es: {
