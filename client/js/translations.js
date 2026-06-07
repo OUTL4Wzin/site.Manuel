@@ -78,6 +78,8 @@ const translations = {
         goal_text: "Building modern and scalable solutions",
         languages_title: "🌍 Languages",
         languages_text: "Portuguese, English, Spanish, French",
+        skill_desc:
+            "I have a strong foundation in HTML and CSS, with solid experience in JavaScript and React.",
         projects_title: "Projects",
         featured_project: "Featured Project",
         featured_project_desc:
@@ -130,6 +132,8 @@ const translations = {
         goal_text: "Construir soluciones modernas y escalables",
         languages_title: "🌍 Idiomas",
         languages_text: "Portugués, Inglés, Español, Francés",
+        skill_desc:
+            "Tengo una base sólida en HTML y CSS, con experiencia sólida en JavaScript y React.",
         projects_title: "Proyectos",
         featured_project: "Proyecto Destacado",
         featured_project_desc:
