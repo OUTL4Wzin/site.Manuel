@@ -38,6 +38,9 @@ const translations = {
         languages_title: "🌍 Línguas",
         languages_text: "Português, Inglês, Espanhol, Francês",
 
+        skill_desc:
+            "Tenho uma base forte em HTML e CSS, com experiência sólida em JavaScript e React.",
+
         projects_title: "Projetos",
         featured_project: "Projeto em Destaque",
 
