@@ -21,6 +21,10 @@ const skillDetails = {
     en: {
       title: "HTML",
       text: "Solid experience in HTML5, creating semantic structures and responsive pages."
+    },
+    es: {
+      title: "HTML",
+      text: "Experiencia sólida en HTML5, creación de estructuras semánticas y páginas responsivas."
     }
   },
 
@@ -32,6 +36,10 @@ const skillDetails = {
     en: {
       title: "CSS",
       text: "Experience with Flexbox, Grid, animations, responsiveness and modern design."
+    },
+    es: {
+      title: "CSS",
+      text: "Experiencia con Flexbox, Grid, animaciones, responsividad y diseño moderno."
     }
   },
 
@@ -43,6 +51,10 @@ const skillDetails = {
     en: {
       title: "JavaScript",
       text: "Knowledge in DOM manipulation, APIs, events and modern frontend development."
+    },
+    es: {
+      title: "JavaScript",
+      text: "Conocimientos en manipulación del DOM, APIs, eventos y desarrollo frontend moderno."
     }
   },
 
@@ -54,6 +66,10 @@ const skillDetails = {
     en: {
       title: "React",
       text: "Creating componentized interfaces and modern SPA applications."
+    },
+    es: {
+      title: "React",
+      text: "Creación de interfaces componentizadas y aplicaciones SPA modernas."
     }
   },
 
@@ -65,6 +81,10 @@ const skillDetails = {
     en: {
       title: "Node.js",
       text: "Experience with backend development, RESTful APIs and database integration."
+    },
+    es: {
+      title: "Node.js",
+      text: "Experiencia con desarrollo backend, APIs RESTful e integración con bases de datos."
     }
   },
 
@@ -76,6 +96,10 @@ const skillDetails = {
     en: {
       title: "MongoDB",
       text: "Experience with data modeling, queries and integration with Node.js."
+    },
+    es: {
+      title: "MongoDB",
+      text: "Experiencia con modelado de datos, consultas e integración con Node.js."
     }
   },
 
@@ -87,6 +111,10 @@ const skillDetails = {
     en: {
       title: "C++",
       text: "Knowledge in object-oriented programming, data structures and algorithms."
+    },
+    es: {
+      title: "C++",
+      text: "Conocimientos en programación orientada a objetos, estructuras de datos y algoritmos."
     }
   },
 
@@ -98,6 +126,10 @@ const skillDetails = {
     en: {
       title: "SQL",
       text: "Experience with data modeling, complex queries and integration with backend applications."
+    },
+    es: {
+      title: "SQL",
+      text: "Experiencia con modelado de datos, consultas complejas e integración con aplicaciones backend."
     }
   },
 
@@ -109,6 +141,10 @@ const skillDetails = {
     en: {
       title: "Python",
       text: "Experience with backend development, task automation and data analysis."
+    },
+    es: {
+      title: "Python",
+      text: "Experiencia con desarrollo backend, automatización de tareas y análisis de datos."
     }
   },
 
@@ -120,6 +156,10 @@ const skillDetails = {
     en: {
       title: "PHP",
       text: "Experience with backend development, RESTful APIs and database integration."
+    },
+    es: {
+      title: "PHP",
+      text: "Experiencia con desarrollo backend, APIs RESTful e integración con bases de datos."
     }
   },
 
@@ -139,6 +179,10 @@ const infoDetails = {
     en: {
       title: "Education",
       text: "I completed the Technical Course in Computer Networks and Systems at the University of Madeira and am currently pursuing a degree in Computer Engineering at the Polytechnic Institute of Bragança."
+    },
+    es: {
+      title: "Educación",
+      text: "He completado el Curso Técnico en Redes y Sistemas Informáticos en la Universidad de Madeira y actualmente estoy cursando Ingeniería Informática en el Instituto Politécnico de Bragança."
     }
   },
 
@@ -150,6 +194,10 @@ const infoDetails = {
     en: {
       title: "Experience",
       text: "Personal projects, as well as projects taught at the university, freelancing, and participation in internships in the technological field. Practical experience in web development and interface design at ACIN - iCloud Solutions and technical problem-solving at Grupo Sousa, Investimentos SGPS, Lda."
+    },
+    es: {
+      title: "Experiencia",
+      text: "Proyectos personales, así como los proyectos impartidos por la universidad, freelancing y participación en pasantías en el campo tecnológico. Experiencia práctica en desarrollo web y diseño de interfaces en ACIN - iCloud Solutions y resolución de problemas técnicos en Grupo Sousa, Investimentos SGPS, Lda."
     }
   },
 
@@ -161,6 +209,10 @@ const infoDetails = {
     en: {
       title: "Main Stack",
       text: "HTML, CSS, JavaScript, React and Node.js. I have experience with other technologies like Python, SQL and Git, but my main stack is focused on modern frontend development."
+    },
+    es: {
+      title: "Pila Principal",
+      text: "HTML, CSS, JavaScript, React y Node.js. Tengo experiencia con otras tecnologías como Python, SQL y Git, pero mi pila principal se enfoca en el desarrollo frontend moderno."
     }
   },
 
@@ -172,6 +224,10 @@ const infoDetails = {
     en: {
       title: "Goal",
       text: "My goal is to master my knowledge in frontend development and build modern, scalable, and efficient applications."
+    },
+    es: {
+      title: "Objetivo",
+      text: "Mi objetivo es dominar mi conocimiento en el desarrollo frontend y construir aplicaciones modernas, escalables y eficientes."
     }
   },
 
@@ -183,6 +239,10 @@ const infoDetails = {
     en: {
       title: "Languages",
       text: "Portuguese(Native), English(B2), Spanish(B1) and French(A1)."
+    },
+    es: {
+      title: "Idiomas",
+      text: "Portugués(Nativo), Inglés(B2), Español(B1) y Francés(A1)."
     }
   }
 };
@@ -329,6 +389,10 @@ const projectDetails = {
     en: {
       title: "Task Management App",
       text: "Modern task management application with authentication, state-based organization, and real-time synchronization."
+    },
+    es: {
+      title: "Aplicación de Gestión de Tareas",
+      text: "Aplicación moderna para gestión de tareas con autenticación, organización por estados y sincronización en tiempo real."
     }
   },
 
@@ -340,6 +404,10 @@ const projectDetails = {
     en: {
       title: "E-Commerce Platform",
       text: "Fullstack online store with payment system, shopping cart, authentication and admin dashboard."
+    },
+    es: {
+      title: "Plataforma E-Commerce",
+      text: "Tienda online fullstack con sistema de pagamientos, carrito, autenticación y dashboard administrativo."
     }
   },
 
@@ -351,6 +419,10 @@ const projectDetails = {
     en: {
       title: "Portfolio Website",
       text: "Personal website developed with a focus on modern design, performance, and user experience."
+    },
+    es: {
+      title: "Sitio Web de Portafolio",
+      text: "Sitio web personal desarrollado con un enfoque en diseño moderno, rendimiento y experiencia del usuario."
     }
   },
 
@@ -362,6 +434,10 @@ const projectDetails = {
     en: {
       title: "Admin Dashboard",
       text: "Administrative dashboard with metrics, interactive charts, and data visualization."
+    },
+    es: {
+      title: "Dashboard Administrativo",
+      text: "Dashboard administrativo con métricas, gráficos interactivos y visualización de datos."
     }
   }
 

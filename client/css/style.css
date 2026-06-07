@@ -762,7 +762,7 @@ body {
 
   transition: 0.3s ease;
 
-  z-index: 1000;
+  z-index: 9999;
 }
 
 .help-modal.active {
@@ -773,10 +773,10 @@ body {
 .help-content {
   width: 90%;
   max-width: 650px;
-  padding: 35px;
-
+  padding: 20px;
+  max-height: 85vh;
   background: rgba(17, 24, 39, 0.9);
-
+  overflow-y: auto;
   backdrop-filter: blur(15px);
 
   border-radius: 24px;
@@ -790,14 +790,23 @@ body {
   transition: 0.3s ease;
 }
 
+.help-content::-webkit-scrollbar {
+  width: 6px;
+}
+
+.help-content::-webkit-scrollbar-thumb {
+  background: rgba(0, 245, 255, 0.4);
+  border-radius: 10px;
+}
+
 .help-modal.active .help-content {
   transform: translateY(0);
 }
 
 .help-content h2 {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 
-  font-size: 2rem;
+  font-size: 1.5rem;
 
   background: linear-gradient(90deg,
       var(--primary),
@@ -832,7 +841,7 @@ body {
 }
 
 .help-item {
-  display: flex;
+  display: flex-start;
   align-items: center;
   gap: 15px;
 
@@ -841,6 +850,11 @@ body {
   border-radius: 12px;
 
   background: rgba(255, 255, 255, 0.03);
+}
+
+.help-item p {
+  font-size: 0.95rem;
+  line-height: 1.5;
 }
 
 .help-item span {
