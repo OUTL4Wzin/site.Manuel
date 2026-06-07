@@ -25,6 +25,10 @@ const skillDetails = {
     es: {
       title: "HTML",
       text: "Experiencia sólida en HTML5, creación de estructuras semánticas y páginas responsivas."
+    },
+    fr: {
+      title: "HTML",
+      text: "Expérience solide en HTML5, création de structures sémantiques et de pages responsives."
     }
   },
 
@@ -40,6 +44,10 @@ const skillDetails = {
     es: {
       title: "CSS",
       text: "Experiencia con Flexbox, Grid, animaciones, responsividad y diseño moderno."
+    },
+    fr: {
+      title: "CSS",
+      text: "Expérience avec Flexbox, Grid, animations, responsivité et design moderne."
     }
   },
 
@@ -55,6 +63,10 @@ const skillDetails = {
     es: {
       title: "JavaScript",
       text: "Conocimientos en manipulación del DOM, APIs, eventos y desarrollo frontend moderno."
+    },
+    fr: {
+      title: "JavaScript",
+      text: "Connaissances en manipulation du DOM, APIs, événements et développement frontend moderne."
     }
   },
 
@@ -70,6 +82,10 @@ const skillDetails = {
     es: {
       title: "React",
       text: "Creación de interfaces componentizadas y aplicaciones SPA modernas."
+    },
+    fr: {
+      title: "React",
+      text: "Création d'interfaces componentisées et d'applications SPA modernes."
     }
   },
 
@@ -85,6 +101,10 @@ const skillDetails = {
     es: {
       title: "Node.js",
       text: "Experiencia con desarrollo backend, APIs RESTful e integración con bases de datos."
+    },
+    fr: {
+      title: "Node.js",
+      text: "Expérience avec le développement backend, les APIs RESTful et l'intégration avec les bases de données."
     }
   },
 
@@ -100,6 +120,10 @@ const skillDetails = {
     es: {
       title: "MongoDB",
       text: "Experiencia con modelado de datos, consultas e integración con Node.js."
+    },
+    fr: {
+      title: "MongoDB",
+      text: "Expérience avec la modélisation des données, les requêtes et l'intégration avec Node.js."
     }
   },
 
@@ -115,6 +139,10 @@ const skillDetails = {
     es: {
       title: "C++",
       text: "Conocimientos en programación orientada a objetos, estructuras de datos y algoritmos."
+    },
+    fr: {
+      title: "C++",
+      text: "Connaissances en programmation orientée objet, structures de données et algorithmes."
     }
   },
 
@@ -130,6 +158,10 @@ const skillDetails = {
     es: {
       title: "SQL",
       text: "Experiencia con modelado de datos, consultas complejas e integración con aplicaciones backend."
+    },
+    fr: {
+      title: "SQL",
+      text: "Expérience avec la modélisation des données, les requêtes complexes et l'intégration avec les applications backend."
     }
   },
 
@@ -145,6 +177,10 @@ const skillDetails = {
     es: {
       title: "Python",
       text: "Experiencia con desarrollo backend, automatización de tareas y análisis de datos."
+    },
+    fr: {
+      title: "Python",
+      text: "Expérience avec le développement backend, l'automatisation des tâches et l'analyse des données."
     }
   },
 
@@ -160,6 +196,10 @@ const skillDetails = {
     es: {
       title: "PHP",
       text: "Experiencia con desarrollo backend, APIs RESTful e integración con bases de datos."
+    },
+    fr: {
+      title: "PHP",
+      text: "Expérience avec le développement backend, les APIs RESTful et l'intégration avec les bases de données."
     }
   },
 
@@ -183,6 +223,10 @@ const infoDetails = {
     es: {
       title: "Educación",
       text: "He completado el Curso Técnico en Redes y Sistemas Informáticos en la Universidad de Madeira y actualmente estoy cursando Ingeniería Informática en el Instituto Politécnico de Bragança."
+    },
+    fr: {
+      title: "Éducation",
+      text: "J'ai terminé le cours technique en réseaux et systèmes informatiques à l'Université de Madère et je poursuis actuellement un diplôme en génie informatique à l'Institut polytechnique de Bragança."
     }
   },
 
@@ -198,6 +242,10 @@ const infoDetails = {
     es: {
       title: "Experiencia",
       text: "Proyectos personales, así como los proyectos impartidos por la universidad, freelancing y participación en pasantías en el campo tecnológico. Experiencia práctica en desarrollo web y diseño de interfaces en ACIN - iCloud Solutions y resolución de problemas técnicos en Grupo Sousa, Investimentos SGPS, Lda."
+    },
+    fr: {
+      title: "Expérience",
+      text: "Projets personnels, ainsi que les projets enseignés à l'université, le freelancing et la participation à des stages dans le domaine technologique. Expérience pratique en développement web et conception d'interfaces chez ACIN - iCloud Solutions et résolution de problèmes techniques chez Grupo Sousa, Investimentos SGPS, Lda."
     }
   },
 
@@ -213,6 +261,10 @@ const infoDetails = {
     es: {
       title: "Pila Principal",
       text: "HTML, CSS, JavaScript, React y Node.js. Tengo experiencia con otras tecnologías como Python, SQL y Git, pero mi pila principal se enfoca en el desarrollo frontend moderno."
+    },
+    fr: {
+      title: "Pile Principale",
+      text: "HTML, CSS, JavaScript, React et Node.js. J'ai de l'expérience avec d'autres technologies comme Python, SQL et Git, mais ma pile principale se concentre sur le développement frontend moderne."
     }
   },
 
@@ -228,6 +280,10 @@ const infoDetails = {
     es: {
       title: "Objetivo",
       text: "Mi objetivo es dominar mi conocimiento en el desarrollo frontend y construir aplicaciones modernas, escalables y eficientes."
+    },
+    fr: {
+      title: "Objectif",
+      text: "Mon objectif est de maîtriser mon knowledge en développement frontend et de construire des applications modernes, évolutives et efficaces."
     }
   },
 
@@ -243,6 +299,10 @@ const infoDetails = {
     es: {
       title: "Idiomas",
       text: "Portugués(Nativo), Inglés(B2), Español(B1) y Francés(A1)."
+    },
+    fr: {
+      title: "Langues",
+      text: "Portugais(Natif), Anglais(B2), Espagnol(B1) et Français(A1)."
     }
   }
 };
@@ -393,6 +453,10 @@ const projectDetails = {
     es: {
       title: "Aplicación de Gestión de Tareas",
       text: "Aplicación moderna para gestión de tareas con autenticación, organización por estados y sincronización en tiempo real."
+    },
+    fr: {
+      title: "Application de Gestion de Tâches",
+      text: "Application moderne de gestion de tâches avec authentification, organisation par états et synchronisation en temps réel."
     }
   },
 
@@ -408,6 +472,10 @@ const projectDetails = {
     es: {
       title: "Plataforma E-Commerce",
       text: "Tienda online fullstack con sistema de pagamientos, carrito, autenticación y dashboard administrativo."
+    },
+    fr: {
+      title: "Plateforme E-Commerce",
+      text: "Boutique en ligne fullstack avec système de paiements, panier, authentification et tableau de bord administratif."
     }
   },
 
@@ -423,6 +491,10 @@ const projectDetails = {
     es: {
       title: "Sitio Web de Portafolio",
       text: "Sitio web personal desarrollado con un enfoque en diseño moderno, rendimiento y experiencia del usuario."
+    },
+    fr: {
+      title: "Site Web de Portfolio",
+      text: "Site web personnel développé avec un focus sur le design moderne, la performance et l'expérience utilisateur."
     }
   },
 
@@ -438,6 +510,10 @@ const projectDetails = {
     es: {
       title: "Dashboard Administrativo",
       text: "Dashboard administrativo con métricas, gráficos interactivos y visualización de datos."
+    },
+    fr: {
+      title: "Tableau de Bord Administratif",
+      text: "Tableau de bord administratif avec métriques, graphiques interactifs et visualisation des données."
     }
   }
 

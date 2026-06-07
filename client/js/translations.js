@@ -153,5 +153,109 @@ const translations = {
         guide_contact: "Contacto — Contáctame para obtener más información.",
         social_media_title: "Redes Sociales",
         social_media_text1: "Puedes encontrarme en:"
+    },
+
+    fr: {
+        nav_home: "Accueil",
+        nav_about: "À propos",
+        nav_skills: "Compétences",
+        nav_projects: "Projets",
+        nav_contact: "Contact",
+        guide: "💡 Guide",
+        job_title: "Développeur de logiciels",
+        hero_description:
+            "Développeur axé sur le développement web et les solutions numériques modernes, 26 ans, passionné par la création d'interfaces intuitives et efficaces.",
+        view_projects: "Voir les projets",
+        contact: "Contact",
+        about_me: "À propos de moi",
+        about_text_1:
+            "Je m'appelle Manuel Cabeceiro, j'ai 26 ans et je suis originaire de Bragança. Je suis un développeur passionné par la technologie et la résolution de problèmes.",
+        about_text_2:
+            "J'aime créer des solutions efficaces et des interfaces intuitives. J'apprends toujours de nouvelles technologies et j'améliore mes compétences.",
+        education_title: "🎓 Éducation",
+        education_1: "Technicien supérieur en réseaux et systèmes informatiques",
+        education_2: "Génie informatique",
+        experience_title: "💼 Expérience",
+        experience_1: "Projets personnels et freelancing",
+        experience_2: "Stages dans des entreprises technologiques",
+        goal_title: "🌍 Objectif",
+        goal_text: "Construire des solutions modernes et évolutives",
+        languages_title: "🌍 Langues",
+        languages_text: "Portugais, Anglais, Espagnol, Français",
+        skill_desc:
+            "J'ai une solide base en HTML et CSS, avec une solide expérience en JavaScript et React.",      
+        projects_title: "Projets",
+        featured_project: "Projet en vedette",
+        featured_project_desc:
+            "Plateforme d'analyse moderne avec authentification, tableaux de bord dynamiques et visualisation de données en temps réel.",
+        project1_desc: "Application moderne de gestion de tâches avec authentification.",
+        project2_desc: "Boutique en ligne complète avec panier et paiements.",
+        project3_desc: "Site web personnel moderne et entièrement responsive.",
+        project4_desc: "Panneau de contrôle avec graphiques et métriques.",
+        live_demo: "🌐 Démo en direct",
+        github: "💻 GitHub",
+        contact_title: "Contact",
+        contact_text:
+            "Si vous souhaitez discuter, collaborer ou échanger des idées:",
+        guide_title: "Guide de l'utilisateur",
+        guide_home: "Accueil — Page principale du site web avec un résumé et deux boutons cliquables. Cliquez sur l'image pour obtenir des informations sur mes réseaux sociaux.",
+        guide_about: "À propos — Informations personnelles et parcours. Cliquez sur chaque carte pour obtenir plus d'informations.",
+        guide_skills: "Compétences — Compétences techniques et niveaux de connaissance. Le % est relatif et représente une estimation de mon niveau de connaissance dans chaque technologie. Cliquez sur chacune pour obtenir plus d'informations.",
+        guide_projects: "Projets — Certains de mes meilleurs projets. Cliquez sur chacun pour voir plus de détails.",
+        guide_contact: "Contact — Contactez-moi pour obtenir plus d'informations.",
+        social_media_title: "Réseaux sociaux",
+        social_media_text1: "Vous pouvez me trouver sur:"
+    },
+
+    fr: {
+        nav_home: "Accueil",
+        nav_about: "À propos",
+        nav_skills: "Compétences",
+        nav_projects: "Projets",
+        nav_contact: "Contact",
+        guide: "💡 Guide",
+        job_title: "Développeur de logiciels",
+        hero_description:
+            "Développeur axé sur le développement web et les solutions numériques modernes, 26 ans, passionné par la création d'interfaces intuitives et efficaces.",
+        view_projects: "Voir les projets",
+        contact: "Contact",
+        about_me: "À propos de moi",
+        about_text_1:
+            "Je m'appelle Manuel Cabeceiro, j'ai 26 ans et je suis originaire de Bragança. Je suis un développeur passionné par la technologie et la résolution de problèmes.",
+        about_text_2:
+            "J'aime créer des solutions efficaces et des interfaces intuitives. J'apprends toujours de nouvelles technologies et j'améliore mes compétences.",
+        education_title: "🎓 Éducation",
+        education_1: "Technicien supérieur en réseaux et systèmes informatiques",
+        education_2: "Génie informatique",
+        experience_title: "💼 Expérience",
+        experience_1: "Projets personnels et freelancing",
+        experience_2: "Stages dans des entreprises technologiques",
+        goal_title: "🌍 Objectif",
+        goal_text: "Construire des solutions modernes et évolutives",
+        languages_title: "🌍 Langues",
+        languages_text: "Portugais, Anglais, Espagnol, Français",
+        skill_desc:
+            "J'ai une solide base en HTML et CSS, avec une solide expérience en JavaScript et React.",      
+        projects_title: "Projets",
+        featured_project: "Projet en vedette",
+        featured_project_desc:
+            "Plateforme d'analyse moderne avec authentification, tableaux de bord dynamiques et visualisation de données en temps réel.",
+        project1_desc: "Application moderne de gestion de tâches avec authentification.",
+        project2_desc: "Boutique en ligne complète avec panier et paiements.",
+        project3_desc: "Site web personnel moderne et entièrement responsive.",
+        project4_desc: "Panneau de contrôle avec graphiques et métriques.",
+        live_demo: "🌐 Démo en direct",
+        github: "💻 GitHub",
+        contact_title: "Contact",
+        contact_text:
+            "Si vous souhaitez discuter, collaborer ou échanger des idées:",
+        guide_title: "Guide de l'utilisateur",
+        guide_home: "Accueil — Page principale du site web avec un résumé et deux boutons cliquables. Cliquez sur l'image pour obtenir des informations sur mes réseaux sociaux.",
+        guide_about: "À propos — Informations personnelles et parcours. Cliquez sur chaque carte pour obtenir plus d'informations.",
+        guide_skills: "Compétences — Compétences techniques et niveaux de connaissance. Le % est relatif et représente une estimation de mon niveau de connaissance dans chaque technologie. Cliquez sur chacune pour obtenir plus d'informations.",
+        guide_projects: "Projets — Certains de mes meilleurs projets. Cliquez sur chacun pour voir plus de détails.",
+        guide_contact: "Contact — Contactez-moi pour obtenir plus d'informations.",
+        social_media_title: "Réseaux sociaux",
+        social_media_text1: "Vous pouvez me trouver sur:"
     }
 };
