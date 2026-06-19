@@ -31,7 +31,7 @@ const translations = {
         projects_title: "Projetos",
         featured_project: "Projeto em Destaque",
         featured_project_desc:
-            "Plataforma moderna de analytics com autenticação, dashboards dinâmicos e visualização de dados em tempo real.",
+            "Plataforma moderna de procura de emprego ou empregados, dashboards dinâmicos e visualização de dados em tempo real.",
         project1_desc: "Aplicação moderna de gestão de tarefas com autenticação.",
         project2_desc: "Loja online fullstack com carrinho e pagamentos.",
         project3_desc: "Website pessoal moderno e totalmente responsivo.",
@@ -83,7 +83,7 @@ const translations = {
         projects_title: "Projects",
         featured_project: "Featured Project",
         featured_project_desc:
-            "Modern analytics platform with authentication, dynamic dashboards and real-time data visualization.",
+            "Modern job search platform with authentication, dynamic dashboards, and real-time data visualization.",
         project1_desc: "Modern task management application with authentication.",
         project2_desc: "Fullstack online store with cart and payments.",
         project3_desc: "Modern and fully responsive personal website.",
@@ -135,7 +135,7 @@ const translations = {
         projects_title: "Proyectos",
         featured_project: "Proyecto Destacado",
         featured_project_desc:
-            "Plataforma de análisis moderna con autenticación, paneles dinámicos y visualización de datos en tiempo real.",
+            "Plataforma moderna de búsqueda de empleo o empleados, con autenticación, paneles dinámicos y visualización de datos en tiempo real.",
         project1_desc: "Aplicación moderna de gestión de tareas con autenticación.",
         project2_desc: "Tienda online completa con carrito y pagos.",
         project3_desc: "Sitio web personal moderno y completamente responsive.",
@@ -187,7 +187,7 @@ const translations = {
         projects_title: "Projets",
         featured_project: "Projet en vedette",
         featured_project_desc:
-            "Plateforme d'analyse moderne avec authentification, tableaux de bord dynamiques et visualisation de données en temps réel.",
+            "Plataforma moderna de procura de emprego ou empregados, dashboards dinâmicos e visualização de dados em tempo real.",
         project1_desc: "Application moderne de gestion de tâches avec authentification.",
         project2_desc: "Boutique en ligne complète avec panier et paiements.",
         project3_desc: "Site web personnel moderne et entièrement responsive.",
@@ -239,7 +239,7 @@ const translations = {
         projects_title: "Projets",
         featured_project: "Projet en vedette",
         featured_project_desc:
-            "Plateforme d'analyse moderne avec authentification, tableaux de bord dynamiques et visualisation de données en temps réel.",
+            "Plataforma moderna de procura de emprego ou empregados, dashboards dinâmicos e visualização de dados em tempo real.",
         project1_desc: "Application moderne de gestion de tâches avec authentification.",
         project2_desc: "Boutique en ligne complète avec panier et paiements.",
         project3_desc: "Site web personnel moderne et entièrement responsive.",
